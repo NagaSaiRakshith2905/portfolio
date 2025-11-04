@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <main className="flex-1 max-w-3xl mx-auto py-6 px-8 flex flex-col gap-12">
       <AboutSection />
+      <ProjectSection />
       <ConnectSection />
     </main>
   );
@@ -53,6 +54,22 @@ function AboutSection() {
           </span>
         </li>
       </ul>
+    </section>
+  )
+}
+
+function ProjectSection() {
+  return (
+    <section className="flex flex-col items-start justify-center">
+      <h1 className="text-white text-base font-medium">
+        Projects
+      </h1>
+      <Link href="https://rupees-tracker.n-s-r.dev" target="noopener noreferrer" className="text-white text-base border-b border-dashed mt-4">
+        Rupees Tracker
+      </Link>
+      <Link href="/" target="noopener noreferrer" className="text-white text-base border-b border-dashed mt-4">
+        K-Path Simulations
+      </Link>
     </section>
   )
 }

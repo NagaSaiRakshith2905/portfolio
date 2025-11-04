@@ -13,7 +13,7 @@ const interMono = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Rakshith | Portfolio",
+  title: "Rakshith - Portfolio",
   description: "Rakshith's Personal Portfolio",
 };
 
@@ -46,7 +46,7 @@ export default function RootLayout({
             </header>
           </div>
           {/* <div className=""> */}
-            {children}
+          {children}
           {/* </div> */}
           <footer className="w-full max-w-3xl mx-auto py-6 px-8">
             <p className="text-white/60 text-sm">
